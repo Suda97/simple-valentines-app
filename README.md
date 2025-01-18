@@ -1,4 +1,4 @@
-Remember to add sound_effect file name to the code and file to the `public` directory!
+Remember to add sound_effect file name to the code and file to the `public` directory!<br>
 To build docker container:<br>
 `docker build . -t <container_name>:<container_tag>`<br>
 To run docker container:<br>
