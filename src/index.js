@@ -8,7 +8,7 @@ const App = () => {
   const [popupPosition, setPopupPosition] = useState({ top: '50%', left: '50%' });
   const [noClickCount, setNoClickCount] = useState(0); // State tracking the click number
   const [showText, setShowText] = useState(false); // New state to show text after "Yes" click
-  const soundEffect = new Audio('/yipie.mp3'); // Sound effect file placed in public dir
+  const soundEffect = new Audio('/<sound_effect>'); // Sound effect file placed in public dir
 
   // Function to handle popup button click (Yes/No)
   const handlePopupButtonClick = (response) => {
